@@ -6,7 +6,7 @@
 
 
 TreeNode *Solution::buildTree(std::vector<int> &preorder, std::vector<int> &inorder) {
-    return constructCore(preorder, inorder, 0, preorder.size() - 1, inorder.size() - 1);
+    return constructCore(preorder, inorder, 0, preorder.size() - 1, 0, inorder.size() - 1);
 }
 
 TreeNode *
